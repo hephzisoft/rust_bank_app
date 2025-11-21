@@ -1,0 +1,10 @@
+[package]
+name = "bank_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bcrypt = "0.17.1"
+fake = "4.4.0"
+rand = "0.9.2"
+uuid = { version = "1.8.1", features = ["v4", "v7", "fast-rng"] }
